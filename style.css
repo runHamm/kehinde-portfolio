@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Ubuntu Sans", sans-serif;
+  line-height: 1.4;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #059669;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+}
+
+.sec-title {
+  font-size: 1.6rem;
+  color: #111827;
+  margin-bottom: 1.4rem;
+}
+
+.sec-title span {
+  border-bottom: 2px solid #059669;
+}
+
+.sm-txts {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #525252;
+  line-height: 1.4;
+}
+
+/*---------HEADER SECTION------------*/
+
+.header-section {
+  background: none;
+  padding: 1.6rem 0;
+}
+
+.logo {
+  color: #059669;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+}
+
+.nav-box {
+  list-style: none;
+  gap: 1rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  color: #525252;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #a3a3a3;
+}
+
+/*-----------HERO SECTION------------*/
+
+.hero-section {
+  padding: 4rem 0;
+}
+
+.text-box {
+  width: 60%;
+  gap: 0.4rem;
+  align-items: flex-start;
+}
+
+.greet {
+  font-size: 1.1rem;
+  color: #525252;
+}
+
+.name {
+  font-size: 2.2rem;
+  line-height: 1.2;
+  color: #111827;
+}
+
+.job {
+  font-size: 1.4rem;
+  line-height: 1.3;
+  color: #525252;
+}
+
+.img-box {
+  position: relative;
+  width: 40%;
+}
+
+.img-box::before {
+  content: "";
+  /* display: block; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  height: 80%;
+  background-color: #a7f3d0;
+  transform: translate(-50%, -45%);
+  border-radius: 10000px;
+  z-index: -12;
+}
+
+/*-----------ABOUT SECTION------------*/
+.about-section {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+/* ------------CREDENTIALS SECTION--------- */
+.credentials {
+  padding: 4rem 0;
+}
+
+.credentials-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.6rem;
+  padding-top: 3.2rem;
+}
+
+.title-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.6rem;
+  align-items: flex-start;
+  gap: 0.6rem;
+}
+
+.ph-student,
+.ph-lightbulb {
+  font-size: 2rem;
+  background-color: #fff;
+  padding: 0.6rem;
+  border-radius: 100000px;
+  color: #059669;
+}
+
+.box-title {
+  font-size: 1.4rem;
+  color: #111827;
+}
+
+.education,
+.projects {
+  padding: 2rem;
+}
+
+.education {
+  width: 50%;
+  background-color: #059669;
+}
+
+.projects {
+  width: 50%;
+  background-color: #a7f3d0;
+}
+
+.cred-box {
+  list-style: none;
+}
+
+.cred-list {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #525252;
+  line-height: 1.6;
+}
