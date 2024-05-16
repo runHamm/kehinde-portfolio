@@ -1,0 +1,79 @@
+@media (min-width: 670px) {
+  :root {
+    --logo-font-size: 2.8rem;
+    --hero-fonts: 3.2rem;
+    --normal-text-size: 2rem;
+    --sec-title-size: 2.8rem;
+  }
+
+  .container {
+    max-width: 85%;
+  }
+
+  .btn {
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+  }
+
+  .sm-txts {
+    font-size: var(--normal-text-size);
+    margin-bottom: 1.8rem;
+  }
+
+  /* HEADER SECTION */
+  .nav-box {
+    gap: 2rem;
+  }
+
+  .nav-link:link,
+  .nav-link:visited {
+    font-size: 2rem;
+  }
+
+  /* HERO-SECTION */
+  .text-box {
+    gap: 1.4rem;
+    width: 50%;
+  }
+
+  .job {
+    line-height: 1.1;
+  }
+
+  /* ABOUT-SECTION */
+  .about-section {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    padding-right: 10rem;
+  }
+
+  /* CREDENTIALS SECTION- */
+  .credentials {
+    padding-bottom: 8rem;
+  }
+
+  .credentials-box {
+    flex-direction: row;
+  }
+
+  .education {
+    width: 50%;
+  }
+
+  .projects {
+    width: 50%;
+  }
+
+  .ph-student,
+  .ph-lightbulb {
+    font-size: 3rem;
+  }
+
+  .box-title {
+    font-size: 2.4rem;
+  }
+
+  .cred-list {
+    font-size: 1.8rem;
+  }
+}
